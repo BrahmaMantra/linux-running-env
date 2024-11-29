@@ -1,0 +1,11 @@
+#!/bin/busybox sh
+
+# 挂载
+/bin/busybox mkdir -p /proc && /bin/busybox mount -t proc none /proc
+
+/bin/busybox echo "Hello MyLinux"
+
+#更改命令提示符
+export PS1='(kernel) =>'
+
+/bin/busybox sh

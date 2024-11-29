@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "fcntl.h": "c",
+        "cstdint": "c",
+        "kvm.h": "c",
+        "ioctl.h": "c",
+        "mman.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "enabled",
+    "C_Cpp.intelliSenseEngineFallback": "Disabled", //需要添加的
+    "C_Cpp.intelliSenseEngine": "Tag Parser",  //  需要添加的
+}
